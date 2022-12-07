@@ -11,7 +11,7 @@ public class ReadyFrame extends GameFrame {
 
     @Override
     public void spacePressed() {
-        game.setGameFrame(new Player1TurnFrame(game));
+        game.setGameFrame(new MainGameFrame(game));
     }
 
     @Override
